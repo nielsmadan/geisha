@@ -33,7 +33,7 @@ let s:belt = ['#A10C03', 000]
 
 let s:blue = ['#31468E', 000]
 
-let s:lime = ['#B2C16A', 000]
+let s:green = ['#18863F', 000]
 let s:purple = ['#3F1239', 000]
 
 let s:tealgrey = ['#8CABA7', 000]
@@ -125,16 +125,16 @@ call s:Highlight('StorageClass',    s:lips, '', '', '')
 call s:Highlight('Structure',       s:lips, '', '', '')
 call s:Highlight('TypeDef',         s:lips, '', 'bold', '')
 
-call s:Highlight('Exception',       s:lime, '', 'bold', '')
-call s:Highlight('Include',         s:lime, '', 'bold', '')
+call s:Highlight('Exception',       s:green, '', 'bold', '')
+call s:Highlight('Include',         s:green, '', 'bold', '')
 
-call s:Highlight('PreProc',         s:lime, '', '', '')
-call s:Highlight('Macro',           s:lime, '', '', '')
-call s:Highlight('Define',          s:lime, '', '', '')
-call s:Highlight('Delimiter',       s:lime, '', '', '')
-call s:Highlight('Ignore',          s:lime, '', '', '')
-call s:Highlight('PreCondit',       s:lime, '', 'bold', '')
-call s:Highlight('Debug',           s:lime, '', 'bold', '')
+call s:Highlight('PreProc',         s:green, '', '', '')
+call s:Highlight('Macro',           s:green, '', '', '')
+call s:Highlight('Define',          s:green, '', '', '')
+call s:Highlight('Delimiter',       s:green, '', '', '')
+call s:Highlight('Ignore',          s:green, '', '', '')
+call s:Highlight('PreCondit',       s:green, '', 'bold', '')
+call s:Highlight('Debug',           s:green, '', 'bold', '')
 
 call s:Highlight('Function',        s:gold, '', '', '')
 call s:Highlight('Identifier',      s:gold, '', '', '')
@@ -206,9 +206,9 @@ call s:HighlightX('DiffAdd',        '', s:moss, '', '')
 
 call s:HighlightX('Underlined',     '', '', 'underline', '')
 
-call s:Highlight('Directory',       s:lime, '', '', '')
-call s:Highlight('Question',        s:lime, '', '', '')
-call s:Highlight('MoreMsg',         s:lime, '', '', '')
+call s:Highlight('Directory',       s:green, '', '', '')
+call s:Highlight('Question',        s:green, '', '', '')
+call s:Highlight('MoreMsg',         s:green, '', '', '')
   
 call s:Highlight('WildMenu',        s:white, s:blue, 'bold', '')
 
@@ -218,11 +218,11 @@ call s:HighlightX('Tag',            '', '', 'bold', '')
 
 "*** PYTHON ***
 call s:Highlight('pythonDecorator',     s:lips, '', '', '')
-call s:Highlight('pythonException',     s:lime, '', 'bold', '')
-call s:Highlight('pythonExceptions',    s:lime, '', '', '')
+call s:Highlight('pythonException',     s:green, '', 'bold', '')
+call s:Highlight('pythonExceptions',    s:green, '', '', '')
 
 "*** RUBY ***
-call s:Highlight('rubyModule',            s:lime, '', '', '')
+call s:Highlight('rubyModule',            s:green, '', '', '')
 call s:Highlight('rubyModuleNameTag',     s:text, '', '', '')
 call s:Highlight('rubyPseudoVariable',    s:text, '', '', '')
 call s:Highlight('rubyClass',             s:lips, '', '', '')
@@ -248,7 +248,7 @@ call s:Highlight('clojureDefine',         s:lips, '', '', '')
 call s:Highlight('clojureSpecial',        s:lips, '', '', '')
 call s:Highlight('clojureCond',           s:lips, '', '', '')
 call s:Highlight('clojureParen0',         s:text, '', '', '')
-call s:Highlight('clojureMacro',          s:lime, '', 'bold', '')
+call s:Highlight('clojureMacro',          s:green, '', 'bold', '')
 call s:Highlight('clojureDispatch',       s:blue, '', 'bold', '')
 call s:Highlight('clojureError',          s:white, s:mordant, 'bold', '')
 
@@ -278,12 +278,12 @@ call s:Highlight('htmlTagName',              s:gold, '', '', '')
 call s:Highlight('htmlTag',                  s:gold, '', '', '')
 call s:Highlight('htmlTagN',                 s:gold, '', '', '')
 call s:Highlight('htmlEvent',                s:mordant, '', '', '')
-call s:Highlight('htmlEventDQ',              s:lime, '', '', '')
+call s:Highlight('htmlEventDQ',              s:green, '', '', '')
 call s:Highlight('htmlH1',                   '', '', 'bold', '')
 call s:Highlight('htmlH2',                   '', '', 'bold', '')
 call s:Highlight('htmlH3',                   '', '', 'italic', '')
 call s:Highlight('htmlH4',                   '', '', 'italic', '')
-call s:Highlight('htmlScriptTag',            s:lime, '', '', '')
+call s:Highlight('htmlScriptTag',            s:green, '', '', '')
 
 "*** HTML/JAVASCRIPT ***
 call s:Highlight('javaScript',               s:text, '', '', '')
@@ -292,11 +292,11 @@ call s:Highlight('javaScript',               s:text, '', '', '')
 call s:Highlight('cssSelectorOp',            s:text, '', '', '')
 call s:Highlight('cssSelectorOp2',           s:text, '', '', '')
 call s:Highlight('cssBraces',                s:text, '', '', '')
-call s:Highlight('cssPseudoClass',           s:lime, '', '', '')
+call s:Highlight('cssPseudoClass',           s:green, '', '', '')
 call s:Highlight('cssValueNumber',           s:blue, '', '', '')
 call s:Highlight('cssValueLength',           s:blue, '', '', '')
 call s:Highlight('cssColor',                 s:blue, '', '', '')
-call s:Highlight('cssImportant',             s:lime, '', 'bold', '')
+call s:Highlight('cssImportant',             s:green, '', 'bold', '')
 call s:Highlight('cssCommonAttr',            s:blue, '', 'bold', '')
 call s:Highlight('cssRenderAttr',            s:blue, '', 'bold', '')
 call s:Highlight('cssBoxAttr',               s:blue, '', 'bold', '')
